@@ -3,9 +3,9 @@ from gameComponents import gameVars
 def winorlose(status):
 	
 	if status == "won":
-		pre_message = "You are the yuuuuuuugest winner ever! "
+		pre_message = "You are the winner!"
 	else:
-		pre_message = "You done trumped it, loser! "
+		pre_message = "You are the loser! "
 
 	print(pre_message + "Would you like to play again?")
 	
@@ -17,7 +17,7 @@ def winorlose(status):
 		gameVars.player = False
 
 	elif choice == "N" or choice == "n":
-		print("You chose to quit. Better luck next time!")
+		print("You chose to quit. See you next time!")
 		exit()
 	else:
 		print("Make a valid choice - Y or N")
@@ -28,6 +28,6 @@ def winorlose(status):
 			gameVars.player = False
 
 		else:
-			print("You chose to quit. Better luck next time!")
+			print("You chose to quit. See you next time!")
 			exit()
 

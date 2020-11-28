@@ -5,7 +5,7 @@ from gameComponents import gameVars, winLose, compareGame
 
 while gameVars.player is False:
 	
-	print("===============*/ RPS /*====================")
+	print("===============*/ Rock Paper Scissors /*====================")
 	print("Computer Lives:", gameVars.computer_lives, "/", gameVars.total_lives)
 	print("Player Lives:", gameVars.player_lives, "/", gameVars.total_lives)
 	print("===================================")
